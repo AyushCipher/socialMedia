@@ -25,7 +25,7 @@ import Search from './pages/Search'
 import getAllNotifications from './hooks/getAllNotifications'
 import Notifications from './pages/Notifications'
 import { setNotificationData } from './redux/userSlice'
-export const serverUrl="srv-d2hmbbggjchc73a8576g"
+export const serverUrl="https://socialmedia-backend-oz0l.onrender.com"
 function App() {
    getCurrentUser()
    getSuggestedUsers()
